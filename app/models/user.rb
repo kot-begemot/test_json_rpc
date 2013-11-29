@@ -12,10 +12,10 @@ class User < ActiveRecord::Base
     v.class == ActiveModel::Validations::LengthValidator
   end
 
-  validates :password, :format => { 
-    :with => /\A.*(?=.*[a-zA-Z])(?=.*\d).*\Z/i, 
+  validates :password, format: { 
+    with: /\A.*(?=.*[a-zA-Z])(?=.*\d).*\Z/i, 
     message: "Password should contain at least one digit and one letter"},
-    :length => { :maximum => 5 }
+    length: { minimun: 5, maximum: 32 }
   
   # Yes, as simple as that. Another way would be regenerate this token
   # after a time

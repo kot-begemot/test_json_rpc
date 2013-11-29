@@ -6,5 +6,6 @@ TestJsonRpc::Application.routes.draw do
     post :add
   end
 
+  get "welcome", to: "welcome#user_index", as: :user_root
   root to: "welcome#index"
 end
