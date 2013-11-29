@@ -1,9 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  email: test1@example.com
-  full_name: MyString
-
-two:
-  email: test2@example.com
-  full_name: MyString
+max:
+  email: max@example.com
+  full_name: Max
+  created_at: 2013-11-28 15:11:56.783156000 Z
+  updated_at: 2013-11-29 09:08:04.908513000 Z
+  encrypted_password: $2a$10$EDYgN00elrycw9WAvVG.8etGhyOEnHe9yM2W9wYDG0h1r8dF8S9jy
+  reset_password_token: 
+  reset_password_sent_at: 
+  remember_created_at: 
+  confirmation_token: b87e041a3579cdb93f2323bdd36bb6399d9160bd630a70e05225086462741542
+  confirmed_at: 
+  confirmation_sent_at: 2013-11-28 15:11:57.270987000 Z
+  unconfirmed_email: 
+  authentication_token: nFEEbemtrmxJ9H-ocFDQ
